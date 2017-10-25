@@ -1,417 +1,415 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <style>
-    * {
-    	margin: 0;
-    	padding: 0;
-    }
-    .topImg{
-    	text-align: center;
-    	margin: auto;
-    	width: 100%;
-    	background: url(img/topimg.png) center center no-repeat;
-    	height: 825px;
-    }
-    .bgcImg{
-    	width: 100%;
-    	background: url(img/bgc.png) center center repeat;
-    	background-size: 100%;
-    	/*text-align: center;*/
-    	/*margin: auto;*/
-    	margin-top: -5px;
-    	height: 100%;
-    }
-    .buttonImg{
-    	text-align: center;
-    	margin: 50px 0 100px;
-    }
-    	.content{
-    		width: 1150px;
-		margin: auto;
-    	}
-    	.link{
-    		color: #FF6C77;
-    		font-size: 14px;
-    		text-align: center;
-    		margin-top: 40px;
-    		cursor:pointer;
-    		display:block; 
-		position: relative;
-    	}
-		.submenu{
-			font-size: 14px;
-			color: #AAAAAA;
-			padding-left: 120px;
-			display: none;
-			margin-top: 20px;
-		}
-		.submenu p{
-			margin: 10px 0;
-		}
-		.currentDd {
-			transform: rotate(180deg);
-			-webkit-transform: rotate(180deg);
-		}
-		.hci-arrow-down {
-			width: 14px;
-			height: 7px;
-			display: block;
-			position: absolute;
-			top: 7px;
-			right: 515px;
-			background: url(img/arrow-up.png) center center no-repeat;
-			transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			transition: all 0.5s;
-			-webkit-transition: all 0.5s;
-		}
+	<head>
+		<title>Ethereal by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
 
-		.firstIntro{
-			/*display: block;*/
-		}
-		.activityOne{
-			
-		}
-		.activityFive{
-			margin-bottom: 50px;
-		}
-		.listCard{
-			width: 100%;
-			height: 750px;
-			margin-top: 20px;
-		}
-		.firstCard{
-			width: 454px;
-			height: 704px;
-			background: url(img/friend.png) no-repeat;
-			padding-top: 40px;
-			text-align: center;
-			float: left;
-			margin-left: 88px;
-		}
-		.secondCard{
-			width: 454px;
-			height: 704px;
-			background: url(img/renqi.png) no-repeat;
-			padding-top: 40px;
-			text-align: center;
-			float: right;
-			margin-right: 88px;
-		}
-		/*表格*/
-		table {
-			width: 370px;
-			height: 539px;
-			margin: auto;
-		}
-		table th {
-			height: 4.2857142857em;
-			/*background: #f6f7fc;*/
-			text-align: center;
-			font-size: 16px;
-			color: #fff;
-			font-weight: 400;
-			padding: 0 1.4285714286em;
-			vertical-align: middle;
-		}
-		table td{
-			color: #fff;
-			font-size: 14px;
-			padding: 15px 0;
-		}
-		.giftsTitle{
-			font-size: 20px;
-			text-align: center;
-			color: #FF716C;
-			padding: 60px 0 35px;
-		}
-		.gifts{
-			height: 800px;
-		}
-		.gifts img{
-			margin: 0 50px 40px 50px;
-			text-align: center;
-		}
-		.bottomImg{
-			text-align: center;
-			margin: auto;
-			width: 100%;
-			background: url(img/bottomimgpc.png) center center no-repeat;
-			height: 395px;
-		}
-		.currentDd {
-			transform: rotate(180deg);
-			-webkit-transform: rotate(180deg);
-		}
-    </style>
-</head>
-<body>
-	<div>
-		<div class="bgcImg">
-			<!-- 顶部背景图 -->
-			<div class="topImg">
-				
-			</div>
-			<div  class="content">
-			<div id="accordion" class="accordion">
-				<!-- 活动一 -->
-				<div class="activityOne">
-					<div>
-						<img src="img/activity1.png" height="343" width="1150">
-					</div>
-					<div class="rules">
-						<div class="link">查看活动规则<i class="hci-arrow-down currentDd"></i></div>
-						<div class="submenu firstIntro">
-							<p>1、投资定期类产品即可参与此项活动；</p>
-							<p>2、投资活期类产品（新手项目/易活期）不享受该活动福利。</p>
-						</div>
-					</div>
-					<div class="buttonImg">
-						<a href="" target="_blank">
-							<img src="img/activityBut1.png" height="71" width="194">
-						</a>
-					</div>
-				</div>
-				<!-- 活动二 -->
-				<div class="activityTwo">
-					<div>
-						<img src="img/activity2.png" height="405" width="1150">
-					</div>
-					<div class="rules">
-						<div class="link">查看活动规则<i class="hci-arrow-down currentDd"></i></div>
-						<div class="submenu">
-							<p>1、新手10000元活期额度仅有一次机会，如新注册用户第一次投资“新手活期”标额度不足10000元，以后也不可再次投资“新手活期”标；</p>
-							<p>2、518元现金红包及1.2%加息券在注册成功后24小时内发放，请前往PC端“我的账户-我的活动-优惠券管理”<br>或移动端“我的--我的活动-优惠券管理”查看，使用方法见券详情；</p>
-							<p>3、现金红包、1.2%加息券（领取后15天内有效）仅限投资定期产品使用且不可叠加使用；</p>
-							<p>4、每位用户仅限参加一次，刷奖及冒用他人身份证、手机号、银行卡者一经核实，取消活动资格，所得奖励不予承兑。</p>
-						</div>
-					</div>
-					<div class="buttonImg">
-						<a href="" target="_blank">
-							<img src="img/activityBut2.png" height="71" width="194">
-						</a>
-					</div>
-				</div>
-				<!-- 活动三 -->
-				<div class="activityThree">
-					<div>
-						<img src="img/activity3.png" height="435" width="1150">
-					</div>
-					<div class="rules">
-						<div class="link">查看活动规则<i class="hci-arrow-down currentDd"></i></div>
-						<div class="submenu">
-							<p>1、凡在2017年5月9日之前注册的用户均可参加该活动；</p>
-							<p>2、1.2%加息券与50元现金券均为单独使用，不可与其他券类叠加使用；</p>
-							<p>3、1.2%加息券与50元现金券均只能在活动期间内（5月9日-5月31日）使用。</p>
-						</div>
-					</div>
-					<div class="buttonImg">
-						<a href="" target="_blank">
-							<img src="img/activityBut3.png" height="71" width="194">
-						</a>
-					</div>
-				</div>
-				<!-- 活动四 -->
-				<div class="activityFour">
-					<div>
-						<img src="img/activity4.png" height="377" width="1150">
-					</div>
-					<div>
-						<div class="link">查看活动规则<i class="hci-arrow-down currentDd"></i></div>
-						<div class="submenu">
-							<p>1、易投资注册用户均可参加此项活动；</p>
-							<p>2、每位用户每天有1次抽奖机会，每次抽奖消耗1易币，如当日未抽奖即作废，抽奖次数不可累积；</p>
-							<p>3、抽奖所得优惠券或易币，系统会实时发送到您的账户中，使用规则见礼券标注。</p>
-						</div>
-					</div>
-					<div class="buttonImg">
-						<a href="" target="_blank">
-							<img src="img/activityBut4.png" height="71" width="194">
-						</a>
-					</div>
-				</div>
-				<!-- 活动五 -->
-				<div class="activityFive">
-					<div>
-						<img src="img/activity5.png" height="153" width="1150">
-					</div>
-					<div class="listCard">
-						<!-- 豪友榜单 -->
-						<div class="firstCard">
-							<table border="0" cellspacing="0" cellpadding="0" class="list">
-								<thead>
-									<tr class="tableHeader">
-										<th>排名</th>
-										<th>手机号</th>
-										<th>投资年化(元)</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">1</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">2</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">3</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">4</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">5</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">6</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">7</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">8</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">9</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-								</tbody>
-							</table>
-							<div style="margin-top: 20px;">
-								<a href="" target="_blank"><img src="img/activityBut5-1.png" alt=""></a>	
-							</div>
-						</div>
-						<!-- 人气榜单 -->
-						<div class="secondCard">
-							<table border="0" cellspacing="0" cellpadding="0" class="list">
-								<thead>
-									<tr class="tableHeader">
-										<th>排名</th>
-										<th>手机号</th>
-										<th>邀请人数(人)</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">1</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">2</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line" style="color: #FFF18A;font-size: 16px;">3</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">4</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">5</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">6</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">7</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">8</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-									<tr>
-										<td class="fontSize14 first-txtColor td-line">9</td>
-										<td class="fontSize14 first-txtColor td-line">185****4244</td>
-										<td class="fontSize14 first-txtColor td-line">8000</td>
-									</tr>
-								</tbody>
-							</table>
-							<div style="margin-top: 20px;">
-								<a href="" target="_blank"><img src="img/activityBut5-2.png" alt=""></a>	
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="link">查看活动规则<i class="hci-arrow-down currentDd"></i></div>
-						<div class="submenu">
-							<p>1、以上榜单活动数据统计时间：2017年5月9日00:00-2017年5月31日24:00；</p>
-							<p>2、壕友榜根据参与用户在活动期间易计划产品累计年化投资额进行排名，年化投资额=投资金额X投资月数/12；</p>
-							<p>3、被邀请好友注册后15日内累计投资定期金额2000元以上（含）计为1名有效好友，人气榜根据参与用户在活动期间邀请有效好友数量进行排名；</p>
-							<p>4、以上榜单活动期间每2小时更新一次；</p>
-							<p>5、若排行榜前10名出现数据相同的情况，则按照投资时间先后顺序排列；</p>
-							<p>6、实物礼品由客服联系获奖用户确认各项信息后7日个工作日内发货；</p>
-							<p>7、本次活动将采用大数据技术杜绝违规操作及作弊行为（包括但不限于：恶意注册虚假账号、恶意刷奖等），若判定为违规操作及作弊行为，易投资有权取消其获奖资格。</p>
-						</div>
-					</div>
-					<div class="giftsTitle">
-						<p>成绩榜排名实物奖励</p>
-					</div>
-					<div class="gifts">
-						<div>
-							<img src="img/img1.png" height="316" width="272">
-							<img src="img/img2.png" height="316" width="273">
-							<img src="img/img3.png" height="317" width="274">
-							<img src="img/img4.png" height="278" width="272">
-							<img src="img/img5.png" height="278" width="273">
-							<img src="img/img6.png" height="278" width="274">
-						</div>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major"><!--[-->Hello, my name<!--]--><br />
+									<!--[-->is Ethereal<!--]--></h1>
+									<p><!--[-->This is <strong>Ethereal</strong>, a free site template by AJ for HTML5 UP. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)<!--]-->More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+									<ul class="actions">
+										<li><a href="#first" class="button special color1 circle icon fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/pic01.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first">
+								<div class="content span-7">
+									<h2 class="major">Sed etiam aenean</h2>
+									<p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Amet lorem</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-diamond"><span class="label">Lorem</span></span></li>
+										<li><span class="icon fa-camera-retro"><span class="label">Ipsum</span></span></li>
+										<li><span class="icon fa-cog"><span class="label">Dolor</span></span></li>
+										<li><span class="icon fa-paper-plane"><span class="label">Sit</span></span></li>
+										<li><span class="icon fa-bar-chart"><span class="label">Amet</span></span></li>
+										<li><span class="icon fa-code"><span class="label">Nullam</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Magna amet tempus</h2>
+									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">Elit integer</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+									<div class="group span-4-5">
+										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Contact</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-3-25">
+										<form method="post" action="#">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="4"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button special" /></li>
+											</ul>
+										</form>
+									</div>
+									<div class="span-1-5">
+										<ul class="contact-icons color1">
+											<li class="icon fa-twitter"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-facebook"><a href="#">facebook.com/untitled</a></li>
+											<li class="icon fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-instagram"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-medium"><a href="#">medium.com/untitled</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+                            <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+
+						<!-- Panel -->
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Elements</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam. </p>
+								</div>
+								<div class="inner columns aligned">
+									<div class="span-2-75">
+
+										<h3 class="major">Text</h3>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+
+										<h1>Heading Level 1</h1>
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+
+									</div>
+									<div class="span-3">
+
+										<h4>Blockquote</h4>
+										<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+
+										<h4>Preformatted</h4>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + (i++);
+    deck.shuffle();
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+
+									</div>
+									<div class="span-1-25">
+
+										<h3 class="major">Lists</h3>
+
+										<h4>Unordered</h4>
+										<ul>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+										</ul>
+
+										<h4>Alternate</h4>
+										<ul class="alt">
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+										</ul>
+
+									</div>
+									<div class="span-1-5">
+
+										<h4>Ordered</h4>
+										<ol>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+											<li>Etiam vel felis lorem.</li>
+										</ol>
+
+										<h4>Actions</h4>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+
+									</div>
+									<div class="span-1-25">
+
+										<h4>Icons</h4>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
+										</ul>
+
+										<h4>Contact Icons</h4>
+										<ul class="contact-icons color2">
+											<li class="icon fa-twitter"><a href="#">Twitter</a></li>
+											<li class="icon fa-facebook"><a href="#">Facebook</a></li>
+											<li class="icon fa-instagram"><a href="#">Instagram</a></li>
+											<li class="icon fa-github"><a href="#">GitHub</a></li>
+											<li class="icon fa-medium"><a href="#">Medium</a></li>
+										</ul>
+
+									</div>
+									<div class="span-3">
+										<h3 class="major">Table</h3>
+										<h4>Default</h4>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-3">
+										<h4>Alternate</h4>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-2-25">
+										<h3 class="major">Buttons</h3>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Special</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button large">Large</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button icon fa-diamond">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button special color2 disabled">Disabled</span></li>
+											<li><span class="button disabled">Disabled</span></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 circle icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button circle icon fa-diamond">Icon</a></li>
+										</ul>
+									</div>
+									<div class="span-4-5">
+										<h3 class="major">Form</h3>
+										<form method="post" action="#">
+											<div class="field third">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field third">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field third">
+												<label for="demo-category">Category</label>
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">-</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-low" name="demo-priority" class="color2" checked />
+												<label for="demo-priority-low">Low Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-high" name="demo-priority" class="color2" />
+												<label for="demo-priority-high">High Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-copy" name="demo-copy" class="color2" />
+												<label for="demo-copy">Email a copy</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-human" name="demo-human" class="color2" checked />
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="2"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="special color2" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</form>
+									</div>
+								</div>
+							</section>
+
+						<!-- Copyright -->
+							<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
 
 					</div>
-				</div>
-				
+
 			</div>
-			<!-- 底部温馨提示 -->
-			<div class="bottomImg">
-				
-			</div>
-		</div>
-			
-		</div>
-		</div>
-		
-	</div>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script type="text/javascript">
-		$(function() {
-			$(".link").click(function(){
-				$(this).find('.hci-arrow-down').toggleClass("currentDd");
-				$(this).parents('.rules').siblings().find('.hci-arrow-down').removeClass("currentDd");
-				$(this).next(".submenu").slideToggle(500);
-				$(this).parents('.rules').siblings().find('.submenu').slideUp(500)
-			})
-		});
-	</script>
-</body>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
